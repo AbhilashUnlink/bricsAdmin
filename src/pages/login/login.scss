@@ -1,0 +1,43 @@
+.login-wrapper {
+  display: flex;
+  background-attachment: fixed;
+  background: url(../../assets/bg.jpg);
+  justify-content: left;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+}
+.login-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 22em;
+  height: 100%;
+  background: rgba(255, 255, 255, 1);
+  gap: 30px;
+  padding: 0em 6em;
+  border-radius: 0px;
+  img {
+    width: 100%;
+  }
+}
+.action-buttons {
+  margin: 15px 0 0 0;
+}
+.action-buttons button {
+  width: 100%;
+  min-height: 50px;
+}
+.form-rendered {
+  position: relative;
+  h2 {
+    font-size: 1.1em;
+    text-transform: uppercase;
+    margin: 0 0 20px;
+    font-weight: 800;
+    letter-spacing: 3.8px;
+    text-align: center;
+  }
+}
